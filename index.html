@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- !Зображення favicon -->
+    <link rel="icon" type="image/svg+xml" href="/team-work1/assets/favicon-BGLJ9LXk.svg" />
+
+    <!-- !Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- !Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- !Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Fira+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- !CSS -->
+
+    <title>EcoTote - Екологічні сумки та аксесуари</title>
+    <script type="module" crossorigin src="/team-work1/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/team-work1/assets/index-B1t7sj3x.css">
+  </head>
+
+  <body>
+    <!-- !Секція header -->
+    <header class="header">
+  <div class="container">
+    <a
+      class="logo-link"
+      href="index.html"
+      aria-label="EcoTote - Посилання на головну сторінку"
+    >
+      <svg class="logo-svg logo-svg-mobile" width="84" height="36">
+        <use href="/team-work1/assets/logo-mobile-D3wwi5hE.svg"></use>
+      </svg>
+      <svg class="logo-svg logo-svg-desktop" width="104" height="39">
+        <use href="/team-work1/assets/logo-desktop-bda2AJ64.svg"></use>
+      </svg>
+    </a>
+
+    <nav class="main-nav">
+      <ul class="main-nav-list">
+        <li class="main-nav-item">
+          <a class="main-nav-link" href="#about">Про нас</a>
+        </li>
+        <li class="main-nav-item">
+          <a class="main-nav-link" href="#advantages">Переваги</a>
+        </li>
+        <li class="main-nav-item">
+          <a class="main-nav-link" href="#assortment">Асортимент</a>
+        </li>
+        <li class="main-nav-item">
+          <a class="main-nav-link" href="#gallery">Галерея</a>
+        </li>
+        <li class="main-nav-item">
+          <a class="main-nav-link" href="#feedbacks">Відгуки</a>
+        </li>
+        <li class="main-nav-item">
+          <a class="main-nav-link" href="#support">Контакти</a>
+        </li>
+      </ul>
+    </nav>
+
+    <address class="contacts">
+      <ul class="contacts-list">
+        <li class="contacts-item">
+          <a class="contacts-link" href="tel:+380999091122"
+            >+38 (099) 909 11 22</a
+          >
+        </li>
+        <li class="contacts-item">
+          <a class="contacts-link" href="mailto:hello@ecotote.com"
+            >hello@ecotote.com</a
+          >
+        </li>
+      </ul>
+    </address>
+
+    <button
+      class="burger-menu-button"
+      type="button"
+      aria-label="Відкрити меню навігації"
+      id="burger-menu-button"
+    >
+      <svg
+        class="burger-menu-icon burger-menu-icon-burger"
+        width="32"
+        height="32"
+      >
+        <use href="/team-work1/assets/icons-C-EG0BTm.svg#icon-burger-menu"></use>
+      </svg>
+      <svg
+        class="burger-menu-icon burger-menu-icon-close"
+        width="32"
+        height="32"
+      >
+        <use href="/team-work1/assets/icons-C-EG0BTm.svg#icon-close"></use>
+      </svg>
+    </button>
+  </div>
+
+  <!-- !Mobile Modal Menu -->
+  <div class="mobile-modal" id="mobile-modal">
+    <div class="mobile-modal-wrap">
+      <nav class="mobile-modal-nav">
+        <ul class="mobile-modal-nav-list">
+          <li class="mobile-modal-nav-item">
+            <a class="mobile-modal-nav-link" href="#about">Про нас</a>
+          </li>
+          <li class="mobile-modal-nav-item">
+            <a class="mobile-modal-nav-link" href="#advantages">Переваги</a>
+          </li>
+          <li class="mobile-modal-nav-item">
+            <a class="mobile-modal-nav-link" href="#assortment">Асортимент</a>
+          </li>
+          <li class="mobile-modal-nav-item">
+            <a class="mobile-modal-nav-link" href="#gallery">Галерея</a>
+          </li>
+          <li class="mobile-modal-nav-item">
+            <a class="mobile-modal-nav-link" href="#feedbacks">Відгуки</a>
+          </li>
+          <li class="mobile-modal-nav-item">
+            <a class="mobile-modal-nav-link" href="#support">Контакти</a>
+          </li>
+        </ul>
+      </nav>
+
+      <address class="mobile-modal-contacts">
+        <ul class="mobile-modal-contacts-list">
+          <li class="mobile-modal-contacts-item">
+            <a class="mobile-modal-contacts-link" href="tel:+380999091122">
+              +38 (099) 909 11 22
+            </a>
+          </li>
+          <li class="mobile-modal-contacts-item">
+            <a
+              class="mobile-modal-contacts-link"
+              href="mailto:hello@ecotote.com"
+            >
+              hello@ecotote.com
+            </a>
+          </li>
+        </ul>
+      </address>
+    </div>
+  </div>
+</header>
+
+
+    <main>
+      <!-- !Секція hero -->
+      <section class="hero section" id="hero">
+  <div class="container">
+    <div class="hero-content">
+      <h1 class="hero-title">EcoTote — Стиль, що не шкодить планеті</h1>
+      <div class="hero-info">
+        <p class="hero-description">
+          Екологічні сумки для тих, хто дбає про майбутнє. Обирайте стиль та
+          відповідальність разом з EcoTote.
+        </p>
+        <a class="hero-button" href="#assortment">Купити зараз</a>
+      </div>
+    </div>
+
+    <div class="hero-image-wrapper">
+      <picture>
+        <source
+          srcset="/team-work1/assets/hero-comp-1x-CpM7p8ab.jpg 1x, /team-work1/assets/hero-comp-2x-Jsqpe_cx.jpg 2x"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/team-work1/assets/hero-tab-1x-DZe9ZsBj.jpg 1x, /team-work1/assets/hero-tab-2x-FzH2zQRN.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/team-work1/assets/hero-mob-1x-DEIaoruq.jpg 1x, /team-work1/assets/hero-mob-2x-DX6OOpg0.jpg 2x"
+          media="(min-width: 320px)"
+        />
+        <img src="/team-work1/assets/hero-comp-1x-CpM7p8ab.jpg" alt="threads and leaf" />
+      </picture>
+    </div>
+  </div>
+</section>
+
+      <!-- !Секція about -->
+      <section class="section about" id="about">
+  <div class="container">
+    <h2 class="about-title">Природність</h2>
+    <h3 class="about-subtitle">Турбота про планету</h3>
+    <p class="about-text">
+      Ми використовуємо органічну бавовну, перероблений пластик, льон та коноплі
+      для наших сумок.
+    </p>
+  </div>
+</section>
+
+      <!-- !Секція advantages -->
+      <section class="advantages section" id="advantages">
+  <div class="container">
+    <h3 class="advantages-subtitle">Переваги</h3>
+    <h2 class="advantages-title">Чому обрати нас?</h2>
+    <p class="advantages-desc">
+      Наші сумки виготовлені з екологічно чистих матеріалів, що забезпечують
+      стійкість і довговічність. Обираючи EcoTote, ви підтримуєте екологічну
+      відповідальність.
+    </p>
+    <ul class="advantages-list">
+      <li class="advantages-item">
+        <picture>
+          <source
+            srcset="/team-work1/assets/advantages-desktop-materials-1x-w9-Sh6eA.jpg 1x, /team-work1/assets/advantages-desktop-materials-2x-Bv0_067f.jpg 2x"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="/team-work1/assets/advantages-tablet-materials-1x-DEttBAzV.jpg 1x, /team-work1/assets/advantages-tablet-materials-2x-C8dDfZQe.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/team-work1/assets/advantages-mobile-materials-1x-BpK6lJ3V.jpg 1x, /team-work1/assets/advantages-mobile-materials-2x-BhAuYnWj.jpg 2x"
+            media="(min-width: 320px)"
+          />
+          <img
+            src="/team-work1/assets/advantages-desktop-materials-1x-w9-Sh6eA.jpg"
+            loading="lazy"
+            alt="threads and leaf"
+          />
+        </picture>
+        <h3 class="advantages-subhead">Стійкість та екологічність</h3>
+        <p class="advantages-text">
+          Виготовлені з органічної бавовни та переробленого пластику.
+        </p>
+      </li>
+      <li class="advantages-item">
+        <picture>
+          <source
+            srcset="/team-work1/assets/advantages-desktop-sewing-1x-Dtgbe1GC.jpg 1x, /team-work1/assets/advantages-desktop-sewing-2x-CUl8FEEI.jpg 2x"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="/team-work1/assets/advantages-tablet-sewing-1x-B_kh9QE-.jpg 1x, /team-work1/assets/advantages-tablet-sewing-2x-DIEV8NTq.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/team-work1/assets/advantages-mobile-sewing-1x-B2Cvo35k.jpg 1x, /team-work1/assets/advantages-mobile-sewing-2x-Bk7djzlT.jpg 2x"
+            media="(min-width: 320px)"
+          />
+          <img
+            src="/team-work1/assets/advantages-desktop-sewing-1x-Dtgbe1GC.jpg"
+            alt="hands that sew"
+          />
+        </picture>
+        <h3 class="advantages-subhead advantages-subhead-part">
+          Міцність і довговічність
+        </h3>
+        <p class="advantages-text">
+          Наші сумки мають посилені шви для тривалого використання.
+        </p>
+      </li>
+      <li class="advantages-item">
+        <picture>
+          <source
+            srcset="/team-work1/assets/advantages-desktop-bags-1x-DTkYFq3F.jpg 1x, /team-work1/assets/advantages-desktop-bags-2x-C3N7kzbN.jpg 2x"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="/team-work1/assets/advantages-tablet-bags-1x-D1BKaHjy.jpg 1x, /team-work1/assets/advantages-tablet-bags-2x-x3VoBs42.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            class="advantages-img"
+            srcset="/team-work1/assets/advantages-mobile-bags-1x-8QjIy-PP.jpg 1x, /team-work1/assets/advantages-mobile-bags-2x-DWgqBJ6E.jpg 2x"
+            media="(min-width: 320px)"
+          />
+          <img
+            class="advantages-img"
+            src="/team-work1/assets/advantages-desktop-bags-1x-DTkYFq3F.jpg"
+            alt="three bags"
+          />
+        </picture>
+        <h3 class="advantages-subhead">Стильний та сучасний дизайн</h3>
+        <p class="advantages-text">
+          Мінімалістичні моделі в обмежених серіях для кожного стилю.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <!-- !Секція assortment -->
+      <section class="assortment section" id="assortment">
+  <div class="container">
+    <!-- Заголовок секції -->
+    <h2 id="assortment-title" class="section-title">Наші сумки</h2>
+
+    <!-- Сітка товарів -->
+    <ul class="assortment-list">
+      <!-- Товар 1 -->
+      <li class="product-card">
+        <picture>
+          <!-- computer -->
+          <source
+            media="(min-width: 1440px)"
+            srcset="/team-work1/assets/classic-1x-CNCn02Nd.jpg 1x, /team-work1/assets/assor-classic-comp-2x-CR-OfPw9.jpg 2x"
+          />
+          <!-- tablet -->
+          <source
+            media="(min-width: 768px)"
+            srcset="/team-work1/assets/assor-classic-tab-1x-Cp6LJ_dQ.jpg 1x, /team-work1/assets/assor-classic-tab-2x-2IcvyVpg.jpg 2x"
+          />
+          <!-- mobile -->
+          <source
+            media="(min-width: 320px)"
+            srcset="/team-work1/assets/ecobag-%D1%81lassic-mob1x-D0va7gmL.jpg 1x, /team-work1/assets/ecobag-%D1%81lassic-mob2x-qWqVKVMD.jpg 2x"
+          />
+          <img
+            class="product-image"
+            src="/team-work1/assets/classic-1x-CNCn02Nd.jpg"
+            alt="EcoBag Classic"
+            loading="lazy"
+            decoding="async"
+            width="310"
+            height="371"
+          />
+        </picture>
+        <h3 class="product-title">EcoBag Classic</h3>
+        <p class="product-description">
+          Елегантна та містка сумка для щоденного використання.
+        </p>
+        <p class="product-price">$25</p>
+        <button type="button" class="product-button">Купити</button>
+      </li>
+
+      <!-- Товар 2 -->
+      <li class="product-card">
+        <picture>
+          <!-- computer -->
+          <source
+            media="(min-width: 1440px)"
+            srcset="/team-work1/assets/shopper-1x-BmULEZJb.jpg 1x, /team-work1/assets/assor-shopper-comp-2x-Bh0RoCNm.jpg 2x"
+          />
+          <!-- tablet -->
+          <source
+            media="(min-width: 768px)"
+            srcset="/team-work1/assets/assor-shopper-tab-1x-DGd7NmaY.jpg 1x, /team-work1/assets/assor-shopper-tab-2x-CvdYpoPh.jpg 2x"
+          />
+          <!-- mobile -->
+          <source
+            media="(min-width: 320px)"
+            srcset="/team-work1/assets/ecotote-shopper-mob1x-b37TSJ62.jpg 1x, /team-work1/assets/ecotote-shopper-mob2x-DWzO41PM.jpg 2x"
+          />
+          <img
+            class="product-image"
+            src="/team-work1/assets/shopper-1x-BmULEZJb.jpg"
+            alt="EcoTote Shopper"
+            loading="lazy"
+            decoding="async"
+            width="310"
+            height="371"
+          />
+        </picture>
+        <h3 class="product-title">EcoTote Shopper</h3>
+        <p class="product-description">
+          Ідеальна для покупок, з посиленими ручками.
+        </p>
+        <p class="product-price">$30</p>
+        <button type="button" class="product-button">Купити</button>
+      </li>
+
+      <!-- Товар 3 -->
+      <li class="product-card">
+        <picture>
+          <!-- computer -->
+          <source
+            media="(min-width: 1440px)"
+            srcset="/team-work1/assets/urban-1x-CkS9Qdwv.jpg 1x, /team-work1/assets/assor-urban-comp-2x-BEm6PHuL.jpg 2x"
+          />
+          <!-- tablet -->
+          <source
+            media="(min-width: 768px)"
+            srcset="/team-work1/assets/assor-urban-tab-1x-BsCeSz6z.jpg 1x, /team-work1/assets/assor-urban-tab-2x-DJCYkLyn.jpg 2x"
+          />
+          <!-- mobile -->
+          <source
+            media="(min-width: 320px)"
+            srcset="/team-work1/assets/ecobackpack-urban-mob-1x-DqiIn_L-.jpg 1x, /team-work1/assets/ecobackpack-urban-mob-2x-0yWj9sz9.jpg 2x"
+          />
+          <img
+            class="product-image"
+            src="/team-work1/assets/urban-1x-CkS9Qdwv.jpg"
+            alt="EcoBackpack Urban"
+            loading="lazy"
+            decoding="async"
+            width="310"
+            height="371"
+          />
+        </picture>
+
+        <h3 class="product-title">EcoBackpack Urban</h3>
+        <p class="product-description">
+          Зручний рюкзак для міста з відділенням для ноутбука.
+        </p>
+        <p class="product-price">$45</p>
+        <button type="button" class="product-button">Купити</button>
+      </li>
+
+      <!-- Товар 4 -->
+      <li class="product-card">
+        <picture>
+          <!-- computer -->
+          <source
+            media="(min-width: 1440px)"
+            srcset="/team-work1/assets/mini-1x-Pn2cXlDB.jpg 1x, /team-work1/assets/assor-cross-comp-2x-BUrk3qze.jpg 2x"
+          />
+          <!-- tablet -->
+          <source
+            media="(min-width: 768px)"
+            srcset="/team-work1/assets/assor-cross-tab-1x-CrmeKXPD.jpg 1x, /team-work1/assets/assor-cross-tab-2x-DY1TYv9R.jpg 2x"
+          />
+          <!-- mobile -->
+          <source
+            media="(min-width: 320px)"
+            srcset="/team-work1/assets/ecocrossbody-mob-1x-CYK0iN5t.jpg 1x, /team-work1/assets/ecocrossbody-mob-2x-D-0YqwBO.jpg 2x"
+          />
+          <img
+            class="product-image"
+            src="/team-work1/assets/mini-1x-Pn2cXlDB.jpg"
+            alt="EcoCrossbody Mini"
+            loading="lazy"
+            decoding="async"
+            width="310"
+            height="371"
+          />
+        </picture>
+
+        <h3 class="product-title">EcoCrossbody Mini</h3>
+        <p class="product-description">
+          Компактна сумка через плече для найнеобхіднішого.
+        </p>
+        <p class="product-price">$20</p>
+        <button type="button" class="product-button">Купити</button>
+      </li>
+
+      <!-- Товар 5 -->
+      <li class="product-card">
+        <picture>
+          <!-- computer -->
+          <source
+            media="(min-width: 1440px)"
+            srcset="/team-work1/assets/lunch-1x-FfS3uem_.jpg 1x, /team-work1/assets/assor-lunch-comp-2x-BiTUkTzI.jpg 2x"
+          />
+          <!-- tablet -->
+          <source
+            media="(min-width: 768px)"
+            srcset="/team-work1/assets/assor-lunch-tab-1x-DbJ1E4b5.jpg 1x, /team-work1/assets/assor-lunch-tab-2x-DU-LC0TE.jpg 2x"
+          />
+          <!-- mobile -->
+          <source
+            media="(min-width: 320px)"
+            srcset="/team-work1/assets/ecolunch-mob-1x-DF4MMS14.jpg 1x, /team-work1/assets/ecolunch-mob-2x-BwjnHGl6.jpg 2x"
+          />
+          <img
+            class="product-image"
+            src="/team-work1/assets/lunch-1x-FfS3uem_.jpg"
+            alt="EcoLunch Bag"
+            loading="lazy"
+            decoding="async"
+            width="310"
+            height="371"
+          />
+        </picture>
+        <h3 class="product-title">EcoLunch Bag</h3>
+        <p class="product-description">
+          Стильна та практична сумка для обідів.
+        </p>
+        <p class="product-price">$15</p>
+        <button type="button" class="product-button">Купити</button>
+      </li>
+
+      <!-- Товар 6 -->
+      <li class="product-card">
+        <picture>
+          <!-- computer -->
+          <source
+            media="(min-width: 1440px)"
+            srcset="/team-work1/assets/beach-1x-BL3KOU0k.jpg 1x, /team-work1/assets/assor-beach-comp-2x-BcY7iGj5.jpg 2x"
+          />
+          <!-- tablet -->
+          <source
+            media="(min-width: 768px)"
+            srcset="/team-work1/assets/assor-beach-tab-1x-CPDZ6hgL.jpg 1x, /team-work1/assets/assor-beach-tab-2x-CjPmEUiR.jpg 2x"
+          />
+          <!-- mobile -->
+          <source
+            media="(min-width: 320px)"
+            srcset="/team-work1/assets/ecobeach-mob-1x-D5wL6A7F.jpg 1x, /team-work1/assets/ecobeach-mob-2x-B35qmoTJ.jpg 2x"
+          />
+          <img
+            class="product-image"
+            src="/team-work1/assets/beach-1x-BL3KOU0k.jpg"
+            alt="EcoBeach Tote"
+            loading="lazy"
+            decoding="async"
+            width="310"
+            height="371"
+          />
+        </picture>
+        <h3 class="product-title">EcoBeach Tote</h3>
+        <p class="product-description">
+          Велика сумка для пляжних речей з водонепроникною підкладкою.
+        </p>
+        <p class="product-price">$35</p>
+        <button type="button" class="product-button">Купити</button>
+      </li>
+
+      <!-- Товар 7 -->
+      <li class="product-card">
+        <picture>
+          <!-- computer -->
+          <source
+            media="(min-width: 1440px)"
+            srcset="/team-work1/assets/travel-1x-ZQwjPym3.jpg 1x, /team-work1/assets/assor-travel-comp-2x-C63npTti.jpg 2x"
+          />
+          <!-- tablet -->
+          <source
+            media="(min-width: 768px)"
+            srcset="/team-work1/assets/assor-travel-tab-1x-CXaM6Qw5.jpg 1x, /team-work1/assets/assor-travel-tab-2x-CxT4-Kfy.jpg 2x"
+          />
+          <!-- mobile -->
+          <source
+            media="(min-width: 320px)"
+            srcset="/team-work1/assets/ecotravel-mob-1x-B20ugwCp.jpg 1x, /team-work1/assets/ecotravel-mob-2x-CWC6LRux.jpg 2x"
+          />
+          <img
+            class="product-image"
+            src="/team-work1/assets/travel-1x-ZQwjPym3.jpg"
+            alt="EcoTravel Duffle"
+            loading="lazy"
+            decoding="async"
+            width="310"
+            height="371"
+          />
+        </picture>
+        <h3 class="product-title">EcoTravel Duffle</h3>
+        <p class="product-description">
+          Містка дорожня сумка з додатковими кишенями.
+        </p>
+        <p class="product-price">$60</p>
+        <button type="button" class="product-button">Купити</button>
+      </li>
+
+      <!-- Товар 8 -->
+      <li class="product-card">
+        <picture>
+          <!-- computer -->
+          <source
+            media="(min-width: 1440px)"
+            srcset="/team-work1/assets/kids-1x-DUGb57A3.jpg 1x, /team-work1/assets/assor-kids-comp-2x-l8AlVQHi.jpg 2x"
+          />
+          <!-- tablet -->
+          <source
+            media="(min-width: 768px)"
+            srcset="/team-work1/assets/assor-kids-tab-1x-9YOsF67u.jpg 1x, /team-work1/assets/assor-kids-tab-2x-Cn80uUF7.jpg 2x"
+          />
+          <!-- mobile -->
+          <source
+            media="(min-width: 320px)"
+            srcset="/team-work1/assets/ecokids-mob-1x-DigmFJpO.jpg 1x, /team-work1/assets/ecokids-mob-2x-DwM3kSyD.jpg 2x"
+          />
+          <img
+            class="product-image"
+            src="/team-work1/assets/kids-1x-DUGb57A3.jpg"
+            alt="EcoKids Bag"
+            loading="lazy"
+            decoding="async"
+            width="310"
+            height="371"
+          />
+        </picture>
+
+        <h3 class="product-title">EcoKids Bag</h3>
+        <p class="product-description">Яскрава та зручна сумка для дітей.</p>
+        <p class="product-price">$22</p>
+        <button type="button" class="product-button">Купити</button>
+      </li>
+      <!-- Кінець списку товарів -->
+    </ul>
+  </div>
+</section>
+
+      <!-- !Секція gallery -->
+      <section class="gallery section" id="gallery">
+  <div class="container">
+    <h2 class="gallery-title">Галерея зображень</h2>
+    <h3 class="gallery-subtitle">EcoTotes у повсякденному житті</h3>
+    <ul class="gallery-grid">
+      <li class="item1">
+        <picture>
+          <source
+            media="(max-width: 768px)"
+            srcset="/team-work1/assets/gallery-1-mobile-BON5LkIq.jpg 1x, /team-work1/assets/gallery-1-mobile@2x-nwlK0mAg.jpg 2x"
+          />
+          <source
+            media="(max-width: 1440px)"
+            srcset="/team-work1/assets/gallery-1-tab-BPgbEoNt.jpg 1x, /team-work1/assets/gallery-1-tab@2x-Cjp7c1Ko.jpg 2x"
+          />
+          <img
+            src="/team-work1/assets/gallery-1-dsc-Nns5dJLC.jpg"
+            srcset="/team-work1/assets/gallery-1-dsc-Nns5dJLC.jpg 1x, /team-work1/assets/gallery-1-dsc@2x-B3KNMsxS.jpg 2x"
+            loading="lazy"
+            alt="Eco bag on chair"
+          />
+        </picture>
+      </li>
+      <li class="item2">
+        <picture>
+          <source
+            media="(max-width: 768px)"
+            srcset="/team-work1/assets/gallery-2-mobile-C4Da3HWG.jpg 1x, /team-work1/assets/gallery-2-mobile@2x-CJ5H2onT.jpg 2x"
+          />
+          <source
+            media="(max-width: 1440px)"
+            srcset="/team-work1/assets/gallery-2-tab-a_I0Tv4X.jpg 1x, /team-work1/assets/gallery-2-tab@2x-DoOgd0YR.jpg 2x"
+          />
+          <img
+            src="/team-work1/assets/gallery-2-dsc-DiHkA0SI.jpg"
+            srcset="/team-work1/assets/gallery-2-dsc-DiHkA0SI.jpg 1x, /team-work1/assets/gallery-2-dsc@2x-iTy4SHvO.jpg 2x"
+            loading="lazy"
+            alt="Man with tote bag"
+          />
+        </picture>
+      </li>
+      <li class="item3">
+        <picture>
+          <source
+            media="(max-width: 768px)"
+            srcset="/team-work1/assets/gallery-3-mobile-BdkCs_87.jpg 1x, /team-work1/assets/gallery-3-mobile@2x-BCKQ01_1.jpg 2x"
+          />
+          <source
+            media="(max-width: 1440px)"
+            srcset="/team-work1/assets/gallery-3-tab-B7B6JKtC.jpg 1x, /team-work1/assets/gallery-3-tab@2x-BgeBeNOj.jpg 2x"
+          />
+          <img
+            src="/team-work1/assets/gallery-3-dsc-Cw7nkkEQ.jpg"
+            srcset="/team-work1/assets/gallery-3-dsc-Cw7nkkEQ.jpg 1x, /team-work1/assets/gallery-3-dsc@2x-GJ7_88Oh.jpg 2x"
+            loading="lazy"
+            alt="Person with recycle bag"
+          />
+        </picture>
+      </li>
+      <li class="item4">
+        <picture>
+          <source
+            media="(max-width: 768px)"
+            srcset="/team-work1/assets/gallery-4-mobile-BwY_BVcv.jpg 1x, /team-work1/assets/gallery-4-mobile@2x-f7xwYNal.jpg 2x"
+          />
+          <source
+            media="(max-width: 1440px)"
+            srcset="/team-work1/assets/gallery-4-tab-BC1TwZGG.jpg 1x, /team-work1/assets/gallery-4-tab@2x-DSkDMR4h.jpg 2x"
+          />
+          <img
+            src="/team-work1/assets/gallery-4-dsc-CRY_gLLE.jpg"
+            srcset="/team-work1/assets/gallery-4-dsc-CRY_gLLE.jpg 1x, /team-work1/assets/gallery-4-dsc@2x-taFhGBgV.jpg 2x"
+            loading="lazy"
+            alt="Woman with vegetables"
+          />
+        </picture>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <!-- !Секція feedbacks -->
+      <section class="reviews section" id="feedbacks">
+  <div class="container">
+    <h2 class="reviews-title">Що говорять наші клієнти</h2>
+    <ul class="reviews-list">
+      <li class="review-card">
+        <ul class="stars animate">
+          <li class="star-full">
+            <svg class="star-svg" width="24" height="24">
+              <use href="/team-work1/assets/icons-C-EG0BTm.svg#icon-star-fill"></use>
+            </svg>
+          </li>
+          <li class="star-full">
+            <svg class="star-svg" width="24" height="24">
+              <use href="/team-work1/assets/icons-C-EG0BTm.svg#icon-star-fill"></use>
+            </svg>
+          </li>
+          <li class="star-full">
+            <svg class="star-svg" width="24" height="24">
+              <use href="/team-work1/assets/icons-C-EG0BTm.svg#icon-star-fill"></use>
+            </svg>
+          </li>
+          <li class="star-full">
+            <svg class="star-svg" width="24" height="24">
+              <use href="/team-work1/assets/icons-C-EG0BTm.svg#icon-star-fill"></use>
+            </svg>
+          </li>
+          <li class="star-full">
+            <svg class="star-svg" width="24" height="24">
+              <use href="/team-work1/assets/icons-C-EG0BTm.svg#icon-star-fill"></use>
+            </svg>
+          </li>
+        </ul>
+        <p class="text">“Сумка дуже зручна та стильна, використовую щодня!”</p>
+        <p class="author">Анна</p>
+      </li>
+
+      <li class="review-card">
+        <ul class="stars animate">
+          <li class="star-full">
+            <svg class="star-svg" width="24" height="24">
+              <use href="/team-work1/assets/icons-C-EG0BTm.svg#icon-star-fill"></use>
+            </svg>
+          </li>
+          <li class="star-full">
+            <svg class="star-svg" width="24" height="24">
+              <use href="/team-work1/assets/icons-C-EG0BTm.svg#icon-star-fill"></use>
+            </svg>
+          </li>
+          <li class="star-full">
+            <svg class="star-svg" width="24" height="24">
+              <use href="/team-work1/assets/icons-C-EG0BTm.svg#icon-star-fill"></use>
+            </svg>
+          </li>
+          <li class="star-full">
+            <svg class="star-svg" width="24" height="24">
+              <use href="/team-work1/assets/icons-C-EG0BTm.svg#icon-star-fill"></use>
+            </svg>
+          </li>
+          <li class="star-full">
+            <svg class="star-svg" width="24" height="24">
+              <use href="/team-work1/assets/icons-C-EG0BTm.svg#icon-star-fill"></use>
+            </svg>
+          </li>
+        </ul>
+        <p class="text">“Відмінна якість матеріалів, приємно здивована.”</p>
+        <p class="author">Ігор</p>
+      </li>
+
+      <li class="review-card">
+        <ul class="stars animate">
+          <li class="star-full">
+            <svg class="star-svg" width="24" height="24">
+              <use href="/team-work1/assets/icons-C-EG0BTm.svg#icon-star-fill"></use>
+            </svg>
+          </li>
+          <li class="star-full">
+            <svg class="star-svg" width="24" height="24">
+              <use href="/team-work1/assets/icons-C-EG0BTm.svg#icon-star-fill"></use>
+            </svg>
+          </li>
+          <li class="star-full">
+            <svg class="star-svg" width="24" height="24">
+              <use href="/team-work1/assets/icons-C-EG0BTm.svg#icon-star-fill"></use>
+            </svg>
+          </li>
+          <li class="star-full">
+            <svg class="star-svg" width="24" height="24">
+              <use href="/team-work1/assets/icons-C-EG0BTm.svg#icon-star-fill"></use>
+            </svg>
+          </li>
+          <li class="star-full">
+            <svg class="star-svg" width="24" height="24">
+              <use href="/team-work1/assets/icons-C-EG0BTm.svg#icon-star-fill"></use>
+            </svg>
+          </li>
+        </ul>
+        <p class="text">Сумка повністю відповідає опису, рекомендую!</p>
+        <p class="author">Олена</p>
+      </li>
+
+      <li class="review-card">
+        <ul class="stars">
+          <li class="star-full">
+            <svg class="star-svg" width="24" height="24">
+              <use href="/team-work1/assets/icons-C-EG0BTm.svg#icon-star-fill"></use>
+            </svg>
+          </li>
+          <li class="star-full">
+            <svg class="star-svg" width="24" height="24">
+              <use href="/team-work1/assets/icons-C-EG0BTm.svg#icon-star-fill"></use>
+            </svg>
+          </li>
+          <li class="star-full">
+            <svg class="star-svg" width="24" height="24">
+              <use href="/team-work1/assets/icons-C-EG0BTm.svg#icon-star-fill"></use>
+            </svg>
+          </li>
+          <li class="star-full">
+            <svg class="star-svg" width="24" height="24">
+              <use href="/team-work1/assets/icons-C-EG0BTm.svg#icon-star-fill"></use>
+            </svg>
+          </li>
+          <li class="star-empty">
+            <svg class="star-svg" width="24" height="24">
+              <use href="/team-work1/assets/icons-C-EG0BTm.svg#icon-star-empty"></use>
+            </svg>
+          </li>
+        </ul>
+        <p class="text">“Швидка доставка та гарне обслуговування.”</p>
+        <p class="author">Сергій</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <!-- !Секція support -->
+      <section class="support section" id="support">
+  <div class="container">
+    <div class="support-content">
+      <h2 class="support-title">Залишились питання? Зв'яжіться з нами!</h2>
+      <h3 class="support-subtitle">Ми тут, щоб допомогти!</h3>
+      <form class="support-form">
+        <label class="support-label" for="name">Ім'я</label>
+        <input
+          class="support-input"
+          id="name"
+          type="text"
+          name="Ім'я"
+          placeholder="Іван"
+          minlength="5"
+          maxlength="64"
+          required
+        />
+        <p class="input-error">Імʼя має містити від 5 до 64 символів</p>
+
+        <label class="support-label" for="email">Електронна пошта</label>
+        <input
+          class="support-input"
+          id="email"
+          type="email"
+          name="Електронна пошта"
+          placeholder="hello@ecotote.com"
+          pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+          required
+        />
+        <p class="input-error">Невірний email, спробуйте ще раз</p>
+
+        <label class="support-label" for="user-comment">Повідомлення</label>
+        <textarea
+          class="support-textarea"
+          id="user-comment"
+          name="Повідомлення"
+          placeholder="Введіть своє повідомлення..."
+          maxlength="500"
+          required
+        ></textarea>
+
+        <button class="support-btn" type="submit">Надіслати</button>
+      </form>
+    </div>
+    <picture>
+      <source
+        srcset="/team-work1/assets/support-desktop-1x-D-ycoorR.jpg 1x, /team-work1/assets/support-desktop-2x-F9slQozq.jpg 2x"
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="/team-work1/assets/support-tablet-1x-CQD0Yj5f.jpg 1x, /team-work1/assets/support-tablet-2x-DgPL3vGC.jpg 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="/team-work1/assets/support-mobile-1x-Dbrb3aoJ.jpg 1x, /team-work1/assets/support-mobile-2x-Cq8iPY3g.jpg 2x"
+        media="(min-width: 320px)"
+      />
+      <img
+        class="support-img"
+        src="/team-work1/assets/support-desktop-2x-F9slQozq.jpg"
+        alt="support-desktop"
+        loading="lazy"
+        width="645"
+      />
+    </picture>
+  </div>
+</section>
+
+    </main>
+
+    <!-- !Секція footer -->
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <nav class="footer__nav">
+        <a href="index.html" class="footer__logo-link">
+          <img
+            src="/team-work1/assets/logo-mobile-D3wwi5hE.svg"
+            alt="EcoTote"
+            class="footer__logo"
+            width="280"
+            height="121"
+          />
+        </a>
+
+        <ul class="footer__nav-list">
+          <li class="footer__nav-item">
+            <a href="#about" class="footer__nav-link">Про нас</a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="#advantages" class="footer__nav-link">Переваги</a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="#assortment" class="footer__nav-link">Асортимент</a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="#gallery" class="footer__nav-link">Галерея</a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="#feedbacks" class="footer__nav-link">Відгуки</a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="#support" class="footer__nav-link">Контакти</a>
+          </li>
+        </ul>
+      </nav>
+
+      <ul class="footer__social-list">
+        <li class="footer__social-item">
+          <a
+            href="https://www.instagram.com/"
+            class="footer__social-link"
+            aria-label="Instagram"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg class="footer__social-icon" width="32" height="32">
+              <use href="/team-work1/assets/icons-C-EG0BTm.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a
+            href="https://www.linkedin.com/"
+            class="footer__social-link"
+            aria-label="LinkedIn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg class="footer__social-icon" width="32" height="32">
+              <use href="/team-work1/assets/icons-C-EG0BTm.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a
+            href="https://www.youtube.com/"
+            class="footer__social-link"
+            aria-label="YouTube"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg class="footer__social-icon" width="32" height="32">
+              <use href="/team-work1/assets/icons-C-EG0BTm.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <address class="footer-contacts">
+      <ul class="footer-contacts-list">
+        <li>
+          <a href="tel:+380999091122" class="footer__address"
+            >+38 (099) 909 11 22</a
+          >
+        </li>
+        <li>
+          <a href="mailto:hello@ecotote.com" class="footer__address"
+            >hello@ecotote.com</a
+          >
+        </li>
+      </ul>
+    </address>
+
+    <p class="footer__copyright">&#xa9; 2025 EcoTote. Всі права захищені.</p>
+  </div>
+</footer>
+
+
+    <!-- !Секція scripts -->
+  </body>
+</html>
