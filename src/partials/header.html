@@ -1,19 +1,122 @@
 <header class="header">
   <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+    <a
+      class="logo-link"
+      href="index.html"
+      aria-label="EcoTote - Посилання на головну сторінку"
+    >
+      <svg class="logo-svg logo-svg-mobile" width="84" height="36">
+        <use href="/img/logo-mobile.svg"></use>
+      </svg>
+      <svg class="logo-svg logo-svg-desktop" width="104" height="39">
+        <use href="/img/logo-desktop.svg"></use>
+      </svg>
+    </a>
+
+    <nav class="main-nav">
+      <ul class="main-nav-list">
+        <li class="main-nav-item">
+          <a class="main-nav-link" href="#about">Про нас</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        <li class="main-nav-item">
+          <a class="main-nav-link" href="#advantages">Переваги</a>
+        </li>
+        <li class="main-nav-item">
+          <a class="main-nav-link" href="#assortment">Асортимент</a>
+        </li>
+        <li class="main-nav-item">
+          <a class="main-nav-link" href="#gallery">Галерея</a>
+        </li>
+        <li class="main-nav-item">
+          <a class="main-nav-link" href="#feedbacks">Відгуки</a>
+        </li>
+        <li class="main-nav-item">
+          <a class="main-nav-link" href="#support">Контакти</a>
         </li>
       </ul>
     </nav>
+
+    <address class="contacts">
+      <ul class="contacts-list">
+        <li class="contacts-item">
+          <a class="contacts-link" href="tel:+380999091122"
+            >+38 (099) 909 11 22</a
+          >
+        </li>
+        <li class="contacts-item">
+          <a class="contacts-link" href="mailto:hello@ecotote.com"
+            >hello@ecotote.com</a
+          >
+        </li>
+      </ul>
+    </address>
+
+    <button
+      class="burger-menu-button"
+      type="button"
+      aria-label="Відкрити меню навігації"
+      id="burger-menu-button"
+    >
+      <svg
+        class="burger-menu-icon burger-menu-icon-burger"
+        width="32"
+        height="32"
+      >
+        <use href="/img/icons.svg#icon-burger-menu"></use>
+      </svg>
+      <svg
+        class="burger-menu-icon burger-menu-icon-close"
+        width="32"
+        height="32"
+      >
+        <use href="/img/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+  </div>
+
+  <!-- !Mobile Modal Menu -->
+  <div class="mobile-modal" id="mobile-modal">
+    <div class="mobile-modal-wrap">
+      <nav class="mobile-modal-nav">
+        <ul class="mobile-modal-nav-list">
+          <li class="mobile-modal-nav-item">
+            <a class="mobile-modal-nav-link" href="#about">Про нас</a>
+          </li>
+          <li class="mobile-modal-nav-item">
+            <a class="mobile-modal-nav-link" href="#advantages">Переваги</a>
+          </li>
+          <li class="mobile-modal-nav-item">
+            <a class="mobile-modal-nav-link" href="#assortment">Асортимент</a>
+          </li>
+          <li class="mobile-modal-nav-item">
+            <a class="mobile-modal-nav-link" href="#gallery">Галерея</a>
+          </li>
+          <li class="mobile-modal-nav-item">
+            <a class="mobile-modal-nav-link" href="#feedbacks">Відгуки</a>
+          </li>
+          <li class="mobile-modal-nav-item">
+            <a class="mobile-modal-nav-link" href="#support">Контакти</a>
+          </li>
+        </ul>
+      </nav>
+
+      <address class="mobile-modal-contacts">
+        <ul class="mobile-modal-contacts-list">
+          <li class="mobile-modal-contacts-item">
+            <a class="mobile-modal-contacts-link" href="tel:+380999091122">
+              +38 (099) 909 11 22
+            </a>
+          </li>
+          <li class="mobile-modal-contacts-item">
+            <a
+              class="mobile-modal-contacts-link"
+              href="mailto:hello@ecotote.com"
+            >
+              hello@ecotote.com
+            </a>
+          </li>
+        </ul>
+      </address>
+    </div>
   </div>
 </header>

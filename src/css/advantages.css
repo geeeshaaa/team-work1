@@ -1,0 +1,128 @@
+.advantages-subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.advantages-title {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  margin-bottom: 20px;
+}
+
+.advantages-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 48px;
+}
+
+.advantages-subhead {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+
+.advantages-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+
+.advantages-item img {
+  border-radius: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .advantages-subtitle {
+    margin-bottom: 16px;
+  }
+
+  .advantages-title {
+    margin-bottom: 24px;
+  }
+
+  .advantages-desc {
+    font-size: 18px;
+    margin-bottom: 32px;
+  }
+
+  .advantages-subhead {
+    margin-top: 32px;
+    margin-bottom: 8px;
+  }
+
+  .advantages-list {
+    gap: 24px;
+  }
+
+  .advantages-subhead-part {
+    margin-bottom: 42px;
+  }
+
+  .part-crosshead {
+    display: unset;
+  }
+
+  .advantages-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .advantages-item:last-child {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .advantages-title {
+    font-size: 48px;
+  }
+
+  .advantages-desc {
+    margin-bottom: 80px;
+  }
+
+  .advantages-subhead {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+
+  .advantages-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .advantages-item,
+  .advantages-item:last-child {
+    width: calc((100% - 24px) / 3);
+  }
+
+  .advantages-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 32px;
+
+    transition: transform 0.3s ease, box-shadow 0.5s ease;
+
+    &:hover,
+    &:focus {
+      transform: scale(1.02);
+      box-shadow: inset 0 0 0 4px rgba(255, 255, 255, 0.5),
+        0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+  }
+}

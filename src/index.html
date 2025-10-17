@@ -1,23 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- !Зображення favicon -->
+    <link rel="icon" type="image/svg+xml" href="./public/favicon.svg" />
+
+    <!-- !Viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+
+    <!-- !Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- !Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Fira+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- !CSS -->
     <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>EcoTote - Екологічні сумки та аксесуари</title>
   </head>
+
   <body>
+    <!-- !Секція header -->
     <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
 
     <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
+      <!-- !Секція hero -->
+      <load src="./partials/hero.html" />
+      <!-- !Секція about -->
+      <load src="./partials/about.html" />
+      <!-- !Секція advantages -->
+      <load src="./partials/advantages.html" />
+      <!-- !Секція assortment -->
+      <load src="./partials/assortment.html" />
+      <!-- !Секція gallery -->
+      <load src="./partials/gallery.html" />
+      <!-- !Секція feedbacks -->
+      <load src="./partials/feedbacks.html" />
+      <!-- !Секція support -->
+      <load src="./partials/support.html" />
     </main>
 
+    <!-- !Секція footer -->
     <load src="./partials/footer.html" />
 
+    <!-- !Секція scripts -->
     <script type="module" src="./main.js"></script>
   </body>
 </html>

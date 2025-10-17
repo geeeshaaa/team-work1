@@ -1,0 +1,123 @@
+.hero {
+  padding: 64px 0;
+}
+
+.hero-title {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.hero-button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fff;
+  background: #030a06;
+  border: 1px solid #030a06;
+  border-radius: 6px;
+  padding: 12px 24px;
+  width: 288px;
+  height: 50px;
+  display: block;
+  text-align: center;
+}
+
+.hero-image-wrapper > picture img {
+  border-radius: 40px;
+}
+
+.hero-content {
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 32px;
+    padding-bottom: 64px;
+  }
+
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 20px;
+  }
+
+  .hero-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .hero-title {
+    margin-bottom: 0;
+  }
+
+  .hero-description {
+    font-size: 18px;
+    margin-bottom: 32px;
+  }
+
+  .hero-button {
+    width: 148px;
+    height: 50px;
+    white-space: nowrap;
+
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+  }
+
+  .hero-title {
+    font-size: 56px;
+    max-width: 640px;
+  }
+
+  .hero-button {
+    transition: all 0.5s ease;
+
+    &:hover,
+    &:focus {
+      transform: scale(1.02);
+      opacity: 0.5;
+    }
+
+    &:active {
+      background: #113916;
+      opacity: 0.6;
+    }
+
+    &:disabled {
+      background: #030a06;
+      opacity: 0.2;
+    }
+  }
+
+  .hero-image-wrapper > picture img {
+    transition: transform 0.3s ease, box-shadow 0.5s ease;
+
+    &:hover,
+    &:focus {
+      transform: scale(1.02);
+      box-shadow: inset 0 0 0 4px rgba(255, 255, 255, 0.5),
+        0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
